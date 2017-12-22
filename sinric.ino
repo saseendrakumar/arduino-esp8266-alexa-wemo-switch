@@ -11,9 +11,9 @@ void turnOnRelay();
 void turnOffRelay();
 void sendRelayState();
 
-const char* ssid = "************";  // CHANGE: Wifi name
-const char* password = "********";  // CHANGE: Wifi password 
-String friendlyName = "tv";        // CHANGE: Alexa device name
+const char* ssid = "AI-THINKER_1B5777";  // CHANGE: Wifi name
+const char* password = "ai-thinker";  // CHANGE: Wifi password 
+String friendlyName = "Vedhika";        // CHANGE: Alexa device name
 const int relayPin = 5;  // D1 pin. More info: https://github.com/esp8266/Arduino/blob/master/variants/d1_mini/pins_arduino.h#L49-L61
 
 WiFiUDP UDP;
